@@ -1,4 +1,4 @@
-# PROJET 5 Création d'un site e-commerce ORINOCO
+# Création d'un site e-commerce ORINOCO
 
 - Travail effectué à partir de ressources API fournies
 - Respect des consignes du Projet 5 OC
