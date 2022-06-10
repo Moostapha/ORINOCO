@@ -1,0 +1,231 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  font-family: Bai Jamjuree;
+  height: 100vh;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #e3ccee;
+  height: 30px;
+  padding: 10px;
+}
+
+.fab.fa-facebook, .fab.fa-youtube, .fab.fa-instagram, .fab.fa-pinterest {
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-transition: 1000ms;
+  transition: 1000ms;
+  color: #571a57;
+}
+
+.fab.fa-facebook:hover, .fab.fa-youtube:hover, .fab.fa-instagram:hover, .fab.fa-pinterest:hover {
+  color: black;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  background-color: #e3ccee;
+}
+
+.nav .logo-produit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav h1 {
+  margin: 6px;
+  padding-left: 8px;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+}
+
+.nav li {
+  padding: 10px;
+}
+
+.nav a {
+  font-size: 20px;
+  color: black;
+  border: solid black 0.5px;
+  -webkit-box-shadow: 1px 2px 3px;
+          box-shadow: 1px 2px 3px;
+  background-color: #c492c4;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: 1000ms;
+  transition: 1000ms;
+}
+
+.nav a:hover {
+  background-color: #e093e0af;
+  color: white;
+}
+
+main {
+  width: auto;
+  text-align: center;
+  padding: 30px 30px 0px 30px;
+}
+
+.imgtexte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid black;
+  background: #f2edf5;
+  margin-bottom: 20px;
+}
+
+#texte p {
+  font-size: 1.2em;
+}
+
+.btn, .btn1 {
+  margin-top: 10px;
+  padding: 6px 0px 6px 0px;
+  font: bold 13px;
+  background: #e3ccee;
+  color: #050505;
+  border-radius: 10px;
+  width: 200px;
+  height: 45px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 1px 2px 3px black;
+          box-shadow: 1px 2px 3px black;
+  cursor: pointer;
+  -webkit-transition: 1000ms;
+  transition: 1000ms;
+}
+
+.btn:hover, .btn1:hover {
+  background: #c492c4;
+}
+
+.btn h2, .btn1 h2 {
+  font-weight: unset;
+  margin: auto;
+}
+
+.btn h2 a, .btn1 h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn1 {
+  margin-top: 85px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+}
+
+#main-produit {
+  height: auto;
+}
+
+p {
+  font-size: 25px;
+}
+
+select {
+  margin: auto;
+  margin-top: 1em;
+  font-family: Bai Jamjuree;
+  font-weight: bold;
+  font-size: 20px;
+  width: 15em;
+  -webkit-box-shadow: 1px 2px 3px;
+          box-shadow: 1px 2px 3px;
+}
+
+#tableau {
+  width: 60%;
+  background-color: #eadef0;
+  text-justify: center;
+}
+
+thead {
+  background-color: #c492c4;
+}
+
+table, th, td {
+  height: 2em;
+  margin: auto;
+}
+
+form {
+  width: auto;
+  background-color: #eadef0;
+  height: 400px;
+}
+
+form h2 {
+  padding-top: 20px;
+}
+
+input {
+  width: 15em;
+  margin: 0;
+  height: 2.5em;
+  -webkit-box-shadow: 1px 2px 3px;
+          box-shadow: 1px 2px 3px;
+  font-family: Bai Jamjuree;
+  font: 1em;
+}
+
+input:focus {
+  background-color: #eadef0;
+}
+
+label {
+  width: 120px;
+  text-align: left;
+}
+
+label:hover {
+  font-weight: bold;
+}
+
+.space {
+  height: 40px;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+/*PAGE DE CONFIRMATION*/
+#confirmation {
+  height: 73vh;
+}
+/*# sourceMappingURL=styles.css.map */
